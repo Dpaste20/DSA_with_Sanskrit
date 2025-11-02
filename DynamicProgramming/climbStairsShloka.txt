@@ -1,0 +1,59 @@
+1. Base Case
+
+यदा सोपानं n द्वौ वा, तन्न्यूनं भवेत् ।
+n एव मार्ग-संख्या, तत् ज्ञेयं आद्य-कारणम् ॥
+
+IAST:
+yadā sopānaṁ n dvau vā, tan-nyūnaṁ bhavet |
+n eva mārga-saṅkhyā, tat jñeyaṁ ādya-kāraṇam ||
+
+English transliteration (phonetic):
+yadā sopānam n dvau vā, tannyūnam bhavet |
+n eva mārgasaṅkhyā, tat jñeyam ādyakāraṇam ||
+
+Translation:
+When the staircase has only n = 1 or 2 steps,
+less than that cannot exist.
+Then n itself is the number of ways—
+this should be known as the base case (the initial cause).
+
+
+
+2. The Memoization
+
+पश्य स्मृतिकोशं t[n] यत्नात्, ऋण-एकं न चेत् भवेत् ।
+पूर्वं गणितं तत् फलं गृहाण, वृथा श्रमं मा कुरु ॥
+
+IAST:
+paśya smṛti-kośaṁ t[n] yatnāt, ṛṇa-ekaṁ na cet bhavet |
+pūrvaṁ gaṇitaṁ tat phalaṁ gṛhāṇa, vṛthā śramaṁ mā kuru ||
+
+English transliteration (phonetic):
+pashya smritikoshaṁ t[n] yatnāt, ṛṇaekaṁ na chet bhavet |
+pūrvam gaṇitam tat phalam gṛhāṇa, vrithā shramaṁ mā kuru ||
+
+Translation:
+Look carefully into the memory table t[n];
+if its value is not -1 (uncomputed),
+take the previously computed result—
+do not waste effort in recalculating.
+
+
+3. The Recursive Step
+
+n−1 सोपान-मार्गाः, n−2 मार्गैः च योजयेत् ।
+तत् योगं t[n] कोशे संरक्ष्य, तदेव प्रतिपादयेत् ॥
+
+IAST:
+n−1 sopāna-mārgāḥ, n−2 mārgaiḥ ca yojayet |
+tat yogaṁ t[n] kośe saṁrakṣya, tadeva pratipādayet ||
+
+English transliteration (phonetic):
+n−1 sopānam-mārgāḥ, n−2 mārgaiḥ cha yojayet |
+tat yogam t[n] koshe samrakṣya, tadeva pratipadayet ||
+
+Translation:
+Combine the paths from (n−1) steps
+and from (n−2) steps together;
+store that sum into the memory table t[n],
+and return that as the final result.
