@@ -1,0 +1,35 @@
+Verse 1
+शून्ये शून्यं तथा चैकम्, एके मानं प्रदीयते।
+
+IAST: śūnye śūnyaṃ tathā caikam, eke mānaṃ pradīyate.
+
+Phonetic Transliteration: shoon-yay shoon-yum ta-thaa chai-kum, ay-kay maa-num pra-dee-ya-tay.
+
+Translation: "If (n is) zero, zero is given; and if (n is) one, one is given."
+
+Verse 2
+स्मृतौ चेत् विद्यते मानं, तत् एव पुनरुच्यते॥
+
+IAST: smr̥tau cet vidyate mānaṃ, tat eva punarucyate.
+
+Phonetic Transliteration: smroo-tow chet vid-ya-tay maa-num, tut ev-a pu-nar-oo-cha-tay.
+
+Translation: "If the value exists in memory (smriti/memoization table), that very (value) is returned."
+
+Verse 3
+पूर्वाङ्कद्वययोगेन, नूतनाङ्कस्तु जायते।
+
+IAST: pūrvāṅka-dvaya-yogena, nūtanāṅkas-tu jāyate.
+
+Phonetic Transliteration: poor-vaan-ka-dva-ya-yo-gay-na, noo-ta-naan-kas-too jaa-ya-tay.
+
+Translation: "By the sum of the previous two numbers, a new number is indeed born."
+
+Verse 4
+स्मृति-कोशे सः संस्थाप्यः, समाधानं प्रदीयते॥
+
+IAST: smr̥ti-kośe saḥ saṃsthāpyaḥ, samādhānaṃ pradīyate.
+
+Phonetic Transliteration: smroo-ti-ko-shay sah sam-sthaa-pyah, sa-maa-dhaa-num pra-dee-ya-tay.
+
+Translation: "It (the new number) is stored in the memory-cache, and the solution is given (returned)."
